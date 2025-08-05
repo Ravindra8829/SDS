@@ -1,0 +1,1 @@
+from django.urls import path; from . import views; urlpatterns = [path("assignments/", views.student_assignments, name="student-assignments"), path("attendance/", views.student_attendance, name="student-attendance"), path("results/", views.student_results, name="student-results"), path("submit-assignment/", views.submit_assignment, name="submit-assignment")]
